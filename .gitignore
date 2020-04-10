@@ -1,6 +1,5 @@
 en.subject.pdf
 .DS_Store
-main.c
 *.out
 *.swp
 *.swo
