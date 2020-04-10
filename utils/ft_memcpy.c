@@ -6,11 +6,11 @@
 /*   By: vscabell <vscabell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/08 10:14:12 by vscabell          #+#    #+#             */
-/*   Updated: 2020/04/08 10:14:36 by vscabell         ###   ########.fr       */
+/*   Updated: 2020/04/10 18:35:02 by vscabell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "libftprintf.h"
 
 void	*ft_memcpy(void *dst, const void *src, int n)
 {

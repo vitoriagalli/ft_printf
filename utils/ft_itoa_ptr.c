@@ -6,11 +6,11 @@
 /*   By: vscabell <vscabell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/06 20:00:54 by vscabell          #+#    #+#             */
-/*   Updated: 2020/04/07 21:07:52 by vscabell         ###   ########.fr       */
+/*   Updated: 2020/04/10 18:35:05 by vscabell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "libftprintf.h"
 
 static int	ft_nbrlen_ptr(unsigned long long int nbr, int size_base)
 {

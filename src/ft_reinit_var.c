@@ -6,11 +6,11 @@
 /*   By: vscabell <vscabell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/06 20:02:28 by vscabell          #+#    #+#             */
-/*   Updated: 2020/04/07 13:31:20 by vscabell         ###   ########.fr       */
+/*   Updated: 2020/04/10 18:35:44 by vscabell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "libftprintf.h"
 
 void	ft_reinit_var(t_bag *bag)
 {

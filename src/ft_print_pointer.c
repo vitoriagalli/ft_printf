@@ -6,11 +6,11 @@
 /*   By: vscabell <vscabell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/06 20:00:12 by vscabell          #+#    #+#             */
-/*   Updated: 2020/04/08 10:30:32 by vscabell         ###   ########.fr       */
+/*   Updated: 2020/04/10 18:35:55 by vscabell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "libftprintf.h"
 
 char	*ft_check_prec_ptr(char *str, t_bag *bag)
 {

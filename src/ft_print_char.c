@@ -6,11 +6,11 @@
 /*   By: vscabell <vscabell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/06 19:56:26 by vscabell          #+#    #+#             */
-/*   Updated: 2020/04/08 10:29:46 by vscabell         ###   ########.fr       */
+/*   Updated: 2020/04/10 18:36:24 by vscabell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "libftprintf.h"
 
 void	ft_check_width_char(char ch, t_bag *bag)
 {

@@ -6,11 +6,11 @@
 /*   By: vscabell <vscabell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/06 20:00:30 by vscabell          #+#    #+#             */
-/*   Updated: 2020/04/08 10:30:03 by vscabell         ###   ########.fr       */
+/*   Updated: 2020/04/10 18:36:18 by vscabell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "libftprintf.h"
 
 char	*ft_check_diux(char *str, t_bag *bag)
 {

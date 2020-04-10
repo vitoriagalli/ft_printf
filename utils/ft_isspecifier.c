@@ -6,11 +6,11 @@
 /*   By: vscabell <vscabell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/08 10:01:19 by vscabell          #+#    #+#             */
-/*   Updated: 2020/04/08 10:03:09 by vscabell         ###   ########.fr       */
+/*   Updated: 2020/04/10 18:35:19 by vscabell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "libftprintf.h"
 
 int		ft_isspecifier(char c)
 {

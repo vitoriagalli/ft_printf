@@ -6,11 +6,11 @@
 /*   By: vscabell <vscabell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/08 10:05:00 by vscabell          #+#    #+#             */
-/*   Updated: 2020/04/08 10:08:43 by vscabell         ###   ########.fr       */
+/*   Updated: 2020/04/10 18:34:50 by vscabell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "libftprintf.h"
 
 void	ft_putstr(char *s)
 {

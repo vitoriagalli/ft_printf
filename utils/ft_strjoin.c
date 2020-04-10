@@ -6,11 +6,11 @@
 /*   By: vscabell <vscabell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/08 18:08:29 by vscabell          #+#    #+#             */
-/*   Updated: 2020/04/08 18:08:31 by vscabell         ###   ########.fr       */
+/*   Updated: 2020/04/10 18:34:35 by vscabell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "libftprintf.h"
 
 char	*ft_strjoin(char *s1, char *s2)
 {

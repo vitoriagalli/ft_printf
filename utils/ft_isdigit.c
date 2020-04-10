@@ -6,11 +6,11 @@
 /*   By: vscabell <vscabell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/08 10:00:13 by vscabell          #+#    #+#             */
-/*   Updated: 2020/04/08 10:03:13 by vscabell         ###   ########.fr       */
+/*   Updated: 2020/04/10 18:35:36 by vscabell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "libftprintf.h"
 
 int		ft_isdigit(char c)
 {
