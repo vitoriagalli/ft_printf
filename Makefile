@@ -6,7 +6,7 @@
 #    By: vscabell <vscabell@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/04/06 20:01:13 by vscabell          #+#    #+#              #
-#    Updated: 2020/04/08 18:15:14 by vscabell         ###   ########.fr        #
+#    Updated: 2020/04/14 14:42:30 by vscabell         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -43,9 +43,6 @@ $(NAME):
 	ar rc $(NAME) $(OBJ)
 	ranlib $(NAME)
 
-comp: $(NAME)
-	$(CC) -fsanitize=address main.c -L. -lftprintf && ./a.out
-
 clean:
 	$(RM) $(OBJ)
 
@@ -54,4 +51,4 @@ fclean: clean
 
 re: fclean all
 
-.PHONY: all clean fclean re bonus
+.PHONY: all clean fclean re
