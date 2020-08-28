@@ -11,7 +11,7 @@ Compile and include
 
 	#include "libftprintf.h" in your project
 	run make to compile libftprintf.a
-	link you binary with -L. -lftprintf flag
+	link you binary with -L./$(lib_path) -lftprintf flag
 
 ### II.  The Function:
 
@@ -20,7 +20,7 @@ ft_printf writes the C string pointed by format to the standard output (stdout).
 prototype: **int ft_printf ( const char *format, ... )**;
 
 | Specifier | Description |
-| ------------ | ------------ | 
+| ------------ | ------------ |
 |**c**| character|
 |**s**|	NULL - terminated string|
 |**p**|	pointer memory address|
@@ -42,7 +42,7 @@ prototype: **int ft_printf ( const char *format, ... )**;
 |*|The width is not specified in the format string, but as an additional integer value argument preceding the argument that has to be formatted.|
 
 | Precision | Description |
-| ------------ | ------------ | 
+| ------------ | ------------ |
 |**.number**|For integer specifiers (d, i, o, u, x, X): precision specifies the minimum number of digits to be written. If the value to be written is shorter than this number, the result is padded with leading zeros. The value is not truncated even if the result is longer. A precision of 0 means that no character is written for the value 0. For a, A, e, E, f and F specifiers: this is the number of digits to be printed after the decimal point (by default, this is 6). For g and G specifiers: This is the maximum number of significant digits to be printed. For s: this is the maximum number of characters to be printed. By default all characters are printed until the ending null character is encountered. If the period is specified without an explicit value for precision, 0 is assumed.|
 |*|The precision is not specified in the format string, but as an additional integer value argument preceding the argument that has to be formatted.|
 
