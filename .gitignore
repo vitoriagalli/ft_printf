@@ -3,4 +3,4 @@
 *.swp
 *.swo
 *.o
-libftprintf.a
+*.a
