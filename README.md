@@ -11,7 +11,7 @@ Compile and include
 
 	#include "libftprintf.h" in your project
 	run make to compile libftprintf.a
-	link you binary with -L./$(lib_path) -lftprintf flag
+	link you binary with -L. -lftprintf flag
 
 ### II.  The Function:
 
