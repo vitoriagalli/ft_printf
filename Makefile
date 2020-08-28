@@ -34,7 +34,7 @@ $(OBJ_DIR)/%.o: $(SRC_DIR)/%.c
 
 $(LIBFT):
 	make -C $(LIBFT_DIR)
-	mv $(LIBFT) $(NAME)
+	cp $(LIBFT) $(NAME)
 
 clean:
 	make clean -C $(LIBFT_DIR)
